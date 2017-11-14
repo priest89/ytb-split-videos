@@ -1,7 +1,7 @@
 package com.priest.ytb.utils;
 
 public class Constants {
-	private static String SUCCESS = "SUCCESS";
+	public static String SUCCESS = "SUCCESS";
 	
-	private static String FAIL = "FAIL";
+	public static String FAIL = "FAIL";
 }

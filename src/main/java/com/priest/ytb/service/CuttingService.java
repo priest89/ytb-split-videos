@@ -14,6 +14,7 @@ import org.springframework.stereotype.Service;
 
 import com.priest.ytb.config.YoutubeProperties;
 import com.priest.ytb.dto.request.CuttingRequest;
+import com.priest.ytb.utils.Constants;
 import com.priest.ytb.utils.TimeUtils;
 
 import net.bramp.ffmpeg.FFprobe;
@@ -42,9 +43,9 @@ public class CuttingService {
 			}
 		} catch (Exception e) {
 			LOGGER.error(e.getMessage());
-			return "FAIL";
+			return Constants.FAIL;
 		}
-		return "SUCCESS";
+		return Constants.SUCCESS;
 	}
 
 	public void cutVideo(CuttingRequest cuttingRequest, File file) throws IOException, InterruptedException {
