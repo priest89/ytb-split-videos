@@ -1,4 +1,4 @@
-package com.priest.ytb.service;
+package com.priest.ytb.dto.request;
 
 import java.io.Serializable;
 

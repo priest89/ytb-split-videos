@@ -4,7 +4,6 @@ import java.io.Serializable;
 import java.util.List;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
-import com.priest.ytb.service.TimeRequest;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
 public class CuttingRequest implements Serializable {
